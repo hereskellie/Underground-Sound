@@ -1,0 +1,156 @@
+body{
+    background-color:#000014;
+    color: white;
+}
+ 
+#wrapper{
+height:900px;
+width:1200px;
+}
+ 
+#button{
+width:25%;
+float:left;
+}
+ 
+#mainheader{
+background-image:url("undergroundsoundlogo.jpg");
+background-size:102%;
+height: 13%;
+width: 100%;
+}
+ 
+#sidebar{
+background-color: #000014;
+width: 100%;
+height:100px;
+float: left;
+}
+ 
+#content{
+background-color: #000014;
+width: 80%;
+height: 900px;
+float: left;
+}
+ 
+table
+#table{
+background-color: cornsilk;
+border: 5;
+padding: 30;
+margin-left: auto;
+margin-right: auto;
+}
+ 
+iframe{
+    width: 190; 
+    height: 150;
+} 
+ 
+ 
+.pagetitle{
+    width: 400px;   
+    height: 175px;
+}
+ 
+.heading{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+ 
+.paragraph{
+text-align: justify;
+font-size: 20px;
+font-color: white;
+}
+ 
+.button1{
+    align:centre;
+    width:108px;
+    height:65px;
+}
+ 
+.button2{
+    align:centre;
+    width:80px;
+    height:30px;
+    margin:5px;
+}
+ 
+.button{
+    align:centre;
+    width:108px;
+    height:65px;
+    margin:10px;
+}
+ 
+imagemain{
+    height:350;
+    width: 100;
+}
+ 
+.image{
+    height:200px;
+    width:200px;
+    float:left; 
+    margin: 0 10px;
+}
+ 
+ 
+ 
+#container {
+    width: 700px;
+    overflow: hidden;
+    margin: 50px auto;
+    background: #000014;
+}
+ 
+  
+    /*photobanner*/
+  
+.photobanner {
+    height: 133px;
+    width: 3550px;
+    margin-bottom: 80px;
+}
+ 
+/*keyframe animations*/
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
+}
+  
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+  
+}
+  
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+  
+}
+  
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ }
