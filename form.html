@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Age Validation</title>
+	<script>
+
+function validate ()
+{
+	var agevalue=document.forms["form1"]["age"].value;
+	if (isNaN(agevalue)==true){
+		alert ("not a valid number");
+		return false;
+	}
+	else if (agevalue==null || agevalue=="")
+	{
+	alert ("age must be filled out");
+	return false;
+}
+	if (agevalue <18)
+
+{
+alert("you are too young");
+return false;
+}
+else
+{
+alert("enter the password");
+return true;
+}
+}
+	</script>
+</head>
+<body>
+<form name="form1" action=# onsubmit="return validate()" method="post">
+<label>Age</label>
+<input type="text" name="age"/>
+<input type="submit" value="submit"/>
+</form>
+</body>
+</html>
